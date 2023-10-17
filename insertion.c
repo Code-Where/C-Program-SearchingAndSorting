@@ -1,7 +1,6 @@
 //Insertion Sorting through Iteration
 #include<stdio.h>
 
-// Function of Selection Sort Algorithm
 void Insertionsort(int *arr, int size){
     int temp, i, j;
     for (i = 1; i < size; i++)
