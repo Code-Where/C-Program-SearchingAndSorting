@@ -1,3 +1,4 @@
+//Merge Sort through recursion
 #include <stdio.h>
 
 void merge(int arr[], int lb, int mid, int ub)
