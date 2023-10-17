@@ -2,7 +2,7 @@
 #include<stdio.h>
 
 // Function of Selection Sort Algorithm
-void Selectionsort(int *arr, int size){
+void Insertionsort(int *arr, int size){
     int temp, i, j;
     for (i = 1; i < size; i++)
     {
@@ -32,7 +32,7 @@ int main(){
     int arr[] = {83, 38, 34, 18, 45, 56, 86, 56, 85, 75};
     printf("Before Sorting Array\n");
     printArr(arr, 10);
-    Selectionsort(arr, 10);
+    Insertionsort(arr, 10);
     printf("After Sorting Array\n");
     printArr(arr, 10);
     return 0;
