@@ -1,3 +1,4 @@
+//Binary Search through recursion
 #include <stdio.h>
 
 int binarySearch(int arr[], int l, int u, int key) {
