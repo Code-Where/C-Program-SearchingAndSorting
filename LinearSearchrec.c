@@ -1,3 +1,4 @@
+//Linear Search through recursion
 #include<stdio.h>
 
 int linearSearch(int arr[], int key, int index, int n) {
