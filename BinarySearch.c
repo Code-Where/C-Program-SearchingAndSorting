@@ -1,3 +1,4 @@
+//Binary Search through iteration
 #include <stdio.h>
 
 int binarySearch(int arr[], int n, int key) {
